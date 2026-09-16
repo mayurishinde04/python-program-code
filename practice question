@@ -1,0 +1,71 @@
+#Write a Python program to check whether three numbers are in decreasing order.
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a > b and b > c:
+    print("Numbers are in decreasing order")
+else:
+    print("Numbers are not in decreasing order")
+print("------------------")
+
+
+#Write a Python program to check whether a number is between 10 and 100 or equal to 500.
+
+num = int(input("Enter a number: "))
+
+if (num >= 10 and num <= 100) or num == 500:
+    print("Number is between 10 and 100 or equal to 500")
+else:
+    print("Number does not satisfy the condition")
+    
+    
+    #Write a Python program to calculate (a + b) * c ** 2 and check whether the result is greater than 500.
+    
+    a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+
+result = (a + b) * c ** 2
+
+print("Result:", result)
+
+if result > 500:
+    print("Result is greater than 500")
+else:
+    print("Result is not greater than 500")
+    print("---------------")
+    
+    
+#Write a Python program to perform multiple arithmetic and assignment operations on a number and check the final result.
+   
+num = int(input("Enter a number: "))
+
+num += 10
+num *= 2
+num -= 5
+num //= 3
+
+print("Final result:", num)
+
+if num > 20:
+    print("Final result is greater than 20")
+else:
+    print("Final result is not greater than 20") 
+    print("-------------")
+    
+    
+   # Write a Python program to check student eligibility using age and marks with and and or.
+   
+age = int(input("Enter student age: "))
+marks = int(input("Enter student marks: "))
+
+if (age >= 18 and marks >= 50) or marks >= 80:
+    print("Student is eligible")
+else:
+    print("Student is not eligible")
+     
+print("this is python")
+
+    
