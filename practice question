@@ -20,10 +20,11 @@ if (num >= 10 and num <= 100) or num == 500:
 else:
     print("Number does not satisfy the condition")
     
+print("--------------------")
     
     #Write a Python program to calculate (a + b) * c ** 2 and check whether the result is greater than 500.
     
-    a = int(input("Enter a: "))
+a = int(input("Enter a: "))
 b = int(input("Enter b: "))
 c = int(input("Enter c: "))
 
@@ -35,7 +36,8 @@ if result > 500:
     print("Result is greater than 500")
 else:
     print("Result is not greater than 500")
-    print("---------------")
+    
+print("---------------")
     
     
 #Write a Python program to perform multiple arithmetic and assignment operations on a number and check the final result.
@@ -53,7 +55,7 @@ if num > 20:
     print("Final result is greater than 20")
 else:
     print("Final result is not greater than 20") 
-    print("-------------")
+print("-------------")
     
     
    # Write a Python program to check student eligibility using age and marks with and and or.
