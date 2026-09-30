@@ -67,7 +67,9 @@ if (age >= 18 and marks >= 50) or marks >= 80:
     print("Student is eligible")
 else:
     print("Student is not eligible")
-     
-print("this is python")
+print("--------------")
+
+
+
 
     

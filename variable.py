@@ -4,7 +4,6 @@ name="Maharashtra"
 print(len(name))
 print("----------------")
 
-
 stdName = ["Chetan", 2, True, 2.5, 1+7j]
 print(stdName)
 print("----------------")
@@ -23,9 +22,7 @@ print("---------------")
 
 #
 fruits = ["Apple", "Mango"]
-
 fruits.append("Banana")
-
 print(fruits)
 print("----------------")
 
@@ -43,21 +40,10 @@ if a > b and b > c:
     print("Numbers are in decreasing order")
 else:
     print("Numbers are not in decreasing order")
-    print("---------------")
-    
-    
-    #Write a Python program to check whether a number is between 10 and 100 or equal to 500.
-    
-    num = int(input("Enter a number: "))
+print("---------------")
 
-if (num >= 10 and num <= 100) or num == 500:
-    print("Number is between 10 and 100 or equal to 500")
-else:
-    print("------------------")
 # the    
 stdName = ["Chetan", "Yogesh", "Nilima", "Shivani", "Mayur","Pratiksha", "Lankesh", "Gayatri"]
 stdName[0] = 1
 print(stdName)
 print("-----------")
-
-print("this is python")
