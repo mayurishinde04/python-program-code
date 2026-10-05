@@ -22,7 +22,7 @@ else:
     
 print("--------------------")
     
-    #Write a Python program to calculate (a + b) * c ** 2 and check whether the result is greater than 500.
+#Write a Python program to calculate (a + b) * c ** 2 and check whether the result is greater than 500.
     
 a = int(input("Enter a: "))
 b = int(input("Enter b: "))
@@ -58,7 +58,7 @@ else:
 print("-------------")
     
     
-   # Write a Python program to check student eligibility using age and marks with and and or.
+# Write a Python program to check student eligibility using age and marks with and and or.
    
 age = int(input("Enter student age: "))
 marks = int(input("Enter student marks: "))
