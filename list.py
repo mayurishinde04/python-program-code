@@ -335,9 +335,9 @@ employees = ["Rahul", "Priya", "Amit", "Sneha", "Neha"]
 employee_tuple = tuple(employees)
 print("List:", employees)
 print("Tuple:", employee_tuple)
-print("-------------")
+print("-------------") 
 
-# Print the converted tuple and check its type using type(). 
+
 
 
 
